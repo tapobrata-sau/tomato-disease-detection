@@ -53,3 +53,19 @@ streamlit run main.py
 - TensorFlow
 - Streamlit
 - OpenCV
+## Dataset
+
+The dataset is too large to upload directly to GitHub.
+
+Download it from:
+
+https://www.kaggle.com/datasets/teresha/tomato-plant-disease
+
+After downloading:
+
+1. Extract the dataset
+2. Place it inside the project folder
+
+Example structure:
+
+dataset/
