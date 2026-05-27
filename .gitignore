@@ -1,0 +1,26 @@
+# Virtual Environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE files
+.idea/
+.vscode/
+
+# Dataset
+*.csv
+dataset/
+
+# ML Models
+*.keras
+*.h5
+
+# Streamlit
+.streamlit/
+
+# OS
+.DS_Store
+Thumbs.db
