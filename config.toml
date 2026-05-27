@@ -1,0 +1,44 @@
+[global]
+# Do not show warning when running via "python main.py"
+showWarningOnDirectExecution = false
+
+
+[logger]
+# Debug is useful during development
+level = "debug"
+
+
+[runner]
+# Allows writing variables directly to the app
+magicEnabled = true
+
+
+[server]
+# Run Streamlit in headless mode (required for Docker)
+headless = true
+
+# Do NOT use liveSave in Docker
+liveSave = false
+
+# Do not auto-rerun on save inside Docker
+runOnSave = false
+
+# Streamlit will listen on port 80 (matches Dockerfile)
+port = 80
+
+# Disable CORS (safe because Streamlit serves frontend itself)
+enableCORS = false
+
+# Disable XSRF protection for Docker-based deployment
+enableXsrfProtection = false
+
+
+[browser]
+# Streamlit must bind to all interfaces in Docker
+serverAddress = "0.0.0.0"
+
+# Port the browser connects to
+serverPort = 80
+
+# Disable usage stats (recommended for projects)
+gatherUsageStats = false
